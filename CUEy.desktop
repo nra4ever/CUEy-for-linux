@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Type=Application
+Name=CUEy
+GenericName=CUE Splitter
+Comment=Simple GUI CUE Splitter
+MimeType=application/x-cue
+Exec=/usr/bin/CUEy
+Icon=/usr/share/icons/hicolor/256x256/apps/cuey.png
+Terminal=false
+Categories=AudioVideo;Audio;
+StartupNotify=false
