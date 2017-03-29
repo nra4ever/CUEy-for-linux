@@ -68,15 +68,12 @@ if ! [ -x "$(command -v flac)" ]; then
 		else
 			echo "Flac installation completed successfully."
 		fi
-		echo "Install complete."
-		exit
 	else 
 		echo "Automatic installation of flac was not attempted as this script could not identify"
 		echo "which Linux distribution you are using. Please install the 'flac' package with your distribution's package manager."
-		exit
 	fi
 else
 	echo "Flac already installed."
 fi
-echo "Done."
+echo "Install complete."
 
